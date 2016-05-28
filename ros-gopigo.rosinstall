@@ -1,0 +1,2 @@
+- git: {local-name: ropigo, uri: "https://github.com/ros-gopigo/ros-node-ropigo.git", version: master}
+- git: {local-name: gopigo, uri: "https://github.com/ros-gopigo/catkin-libgopigo.git"}

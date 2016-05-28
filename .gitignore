@@ -1,0 +1,6 @@
+# ignore all files
+*
+
+# accept gitignore and rosinstall files
+!.gitignore
+!*.rosinstall
