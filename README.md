@@ -1,13 +1,15 @@
 # Installation
 
-##### 1. Install ROS' wstool
+##### 1. Install ROS' wstool and catkin tools:
 Either
 ```
-sudo apt-get install python-wstool
+sudo apt install python-wstool
+sudo apt install python-catkin-tools
 ```
 or
 ```
 sudo pip install -U wstool
+sudo pip install -U catkin_tools
 ```
 
 ##### 2. Create and initialize ROS/Catkin workspace
@@ -21,15 +23,9 @@ mkdir gopigo_ws
 cd gopigo_ws
 ```
 
-Download the repository file containing all catkin packages and their location. You need to select the link appropriate for your ros version:
-
-For ROS `jade`:
+Download the repository file containing all catkin packages and their location:
 ```
-wget https://raw.githubusercontent.com/ros-gopigo/rosinstall-repo/jade/ros-gopigo.rosinstall
-```
-For ROS `kinetic`:
-```
-wget https://raw.githubusercontent.com/ros-gopigo/rosinstall-repo/kinetic/ros-gopigo.rosinstall
+wget https://raw.githubusercontent.com/ros-gopigo/rosinstall-repo/master/ros-gopigo.rosinstall
 ```
 
 You should now see the `ros-gopigo.rosinstall` file within your directory `gopigo_ws`.
@@ -41,7 +37,7 @@ wstool init src ros-gopigo.rosinstall
 
 ##### 4. Build packages
 ```
-catkin_make
+catkin build
 ```
 
 ##### 5. Enable workspace and have fun
