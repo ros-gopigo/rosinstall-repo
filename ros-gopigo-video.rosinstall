@@ -1,0 +1,6 @@
+- git: {local-name: ropigo, uri: "https://github.com/ros-gopigo/ros-node-ropigo.git"}
+- git: {local-name: gopigo, uri: "https://github.com/ros-gopigo/catkin-libgopigo.git"}
+- git: {local-name: raspicam, uri: "https://github.com/UbiquityRobotics/raspicam_node.git"}
+- git: {local-name: image_common, uri: "https://github.com/ros-perception/image_common.git"}
+- git: {local-name: image_transport_plugins, uri: "https://github.com/ros-perception/image_transport_plugins.git"}
+- git: {local-name: vision_opencv, uri: "https://github.com/ros-perception/vision_opencv.git"}
